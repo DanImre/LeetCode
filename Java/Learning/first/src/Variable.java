@@ -8,6 +8,8 @@ public class Variable {
     public static void main(String[] args) {
         // COMMENT WITH ctrl + '/' on numpad or block comment with ctrl + shift + '/' on numpad
 
+        // Reformat code with CTRL + ALT + SHIFT + L
+
 //        int localVariableNumber = 10000;
 
         // 'sout' is the shortcut for println
