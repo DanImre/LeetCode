@@ -20,6 +20,7 @@ namespace Hard
 
         public bool SolveSudokuTemp(char[][] board)
         {
+            PrintBoard(board);
             if (board.All(x => x.All(y => y != '.')))
                 return true;
 
@@ -67,7 +68,7 @@ namespace Hard
 
         public void PrintBoard(char[][] board)
         {
-            Thread.Sleep(10);
+            Thread.Sleep(5);
             Console.Clear();
             Console.WriteLine();
             Console.WriteLine("----------------------------------------");
