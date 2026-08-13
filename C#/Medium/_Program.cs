@@ -5,7 +5,9 @@ namespace Medium
     {
         static void Main(string[] args)
         {
-            new Medium_712();
+            var stoneGame = new _1140_Stone_Game_II();
+            Console.WriteLine(stoneGame.StoneGameII_Recursive([2, 7, 9, 4, 4]));
+            Console.WriteLine(stoneGame.StoneGameII_Recursive([1]));
         }
 
         public class ListNode
