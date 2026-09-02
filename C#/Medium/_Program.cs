@@ -5,9 +5,8 @@ namespace Medium
     {
         static void Main(string[] args)
         {
-            var stoneGame = new _1140_Stone_Game_II();
-            Console.WriteLine(stoneGame.StoneGameII_Recursive([2, 7, 9, 4, 4]));
-            Console.WriteLine(stoneGame.StoneGameII_Recursive([1]));
+            var minMoves = new _3568_Minimum_Moves_to_Clean_the_Classroom();
+            minMoves.MinMoves(["S.", "XL"], 2);
         }
 
         public class ListNode
