@@ -27,5 +27,26 @@ namespace Easy
 
             return max;
         }
+
+        public int MaxDepthQuicker(string s)
+        {
+            int count = 0;
+            int max = 0;
+            foreach (var item in s)
+                switch (item)
+                {
+                    case '(':
+                        count++;
+                        break;
+                    case ')':
+                        max = Math.Max(count, max);
+                        count--;
+                        break;
+                    default:
+                        break;
+                }
+
+            return max;
+        }
     }
 }

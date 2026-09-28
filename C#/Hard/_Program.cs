@@ -6,9 +6,8 @@ namespace Hard
     {
         static void Main(string[] args)
         {
-            var asd = new _2213_Longest_Substring_of_One_Repeating_Character();
-            Console.WriteLine(string.Join(", ", "babacc".ToArray()));
-            asd.LongestRepeating("babacc", "bcb", [1, 3, 3]);
+            var asd = new _2472_Maximum_Number_of_Non_overlapping_Palindrome_Substrings();
+            Console.WriteLine(asd.MaxPalindromes("abaccdbbd", 3));
         }
 
         public static int[][] DoubleIntArrayFromString(string input)

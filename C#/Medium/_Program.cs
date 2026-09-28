@@ -5,8 +5,8 @@ namespace Medium
     {
         static void Main(string[] args)
         {
-            var minMoves = new _3568_Minimum_Moves_to_Clean_the_Classroom();
-            minMoves.MinMoves(["S.", "XL"], 2);
+            var obj = new _1477_Find_Two_Non_overlapping_Sub_arrays_Each_With_Target_Sum();
+            Console.WriteLine(obj.MinSumOfLengths([1, 1, 1, 2, 2, 2, 4, 4], 6));
         }
 
         public class ListNode
